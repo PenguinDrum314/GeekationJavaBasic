@@ -14,6 +14,10 @@ public class ForWhile {
 				System.out.println(num);
 			}
 		}
+		//num=15の時はFizzBuzzなのに出力は上書きはされないから
+		//else if(num % 3 == 0 && num % 5 == 0) {
+		//System.out.println("FizzBuzz");
+		//これを先に持ってこないといけない
 
 		String[] gengos = { "Ruby", "Golang", "Java", "Python", "Typescript", "HTML", "Javascript" };
 		for (String gengo : gengos) {
@@ -27,23 +31,6 @@ public class ForWhile {
 				System.out.println(gengo);
 			}
 		}
-//		for (String gengo : gengos) {
-//			switch (gengo) {
-//			case "Java":
-//				System.out.println("現在学習中の言語は" + gengo + "です。");
-//				break;
-//			case "HTML":
-//				System.out.println(gengo + "はプログラミング言語ではありません。");
-//				break;
-//			default:
-//				System.out.println(gengo);
-//				break;
-//			}
-//		}
+		//		文字列（String）を比較するときは、とりあえず.equals()を使う
 	}
 }
-
-//num=15の時はFizzBuzzなのに出力は上書きはされないから
-//else if(num % 3 == 0 && num % 5 == 0) {
-//                    System.out.println("FizzBuzz");
-//これを先に持ってこないといけない
