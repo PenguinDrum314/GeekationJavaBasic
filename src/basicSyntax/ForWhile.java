@@ -19,16 +19,16 @@ public class ForWhile {
 		//System.out.println("FizzBuzz");
 		//これを先に持ってこないといけない
 
-		String[] gengos = { "Ruby", "Golang", "Java", "Python", "Typescript", "HTML", "Javascript" };
-		for (String gengo : gengos) {
-			if (gengo.equals("Java")) {
-				System.out.println("現在学習中の言語は" + gengo + "です。");
+		String[] languages = { "Ruby", "Golang", "Java", "Python", "Typescript", "HTML", "Javascript" };
+		for (String language : languages) {
+			if (language.equals("Java")) {
+				System.out.println("現在学習中の言語は" + language + "です。");
 				continue;
-			} else if (gengo.equals("HTML")) {
-				System.out.println(gengo + "はプログラミング言語ではありません。");
+			} else if (language.equals("HTML")) {
+				System.out.println(language + "はプログラミング言語ではありません。");
 				break;
 			} else {
-				System.out.println(gengo);
+				System.out.println(language);
 			}
 		}
 		//		文字列（String）を比較するときは、とりあえず.equals()を使う
